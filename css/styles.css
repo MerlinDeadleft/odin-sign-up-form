@@ -93,7 +93,7 @@ form {
     box-shadow: 0 3px 5px  gray;
 }
 
-.form-container p {
+.form-container > p {
     font-size: calc(0.6rem + 1.2vmin);
     margin-bottom: 2vh;
 }
