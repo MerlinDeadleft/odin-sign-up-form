@@ -12,7 +12,7 @@
 }
 
 :root {
-    font: 16px sans-serif;
+    font: 16px Verdana;
 
     --font-color-light: #f9fafb;
 }
@@ -64,4 +64,18 @@ body {
 
 .sidebar-footer a {
     color: var(--font-color-light);
+}
+
+main {
+    flex-grow: 1;
+}
+
+main > p {
+    font-size: calc(0.6rem + 1.2vmin);
+    margin: 3vh 20% 0 5vh;
+    max-width: 1000px;
+}
+
+main > p:first-of-type {
+    margin-top: 10vh;
 }
