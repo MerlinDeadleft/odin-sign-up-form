@@ -70,6 +70,7 @@ body {
 
 main {
     flex-grow: 1;
+    overflow-y: scroll;
 }
 
 main > p {
@@ -166,4 +167,5 @@ form button:active {
 
 .login-label {
     font-size: calc(0.1rem + 1.1vmin);
+    margin-bottom: 2vh;
 }
