@@ -60,6 +60,7 @@ body {
 .sidebar-footer {
     margin-bottom: 2%;
     color: var(--font-color-light);
+    text-align: center;
 }
 
 .sidebar-footer a {
