@@ -141,3 +141,7 @@ form {
 .form-field input:user-invalid + .password-hint {
     color: red;
 }
+
+.login-label {
+    font-size: calc(0.1rem + 1.1vmin);
+}
