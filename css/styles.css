@@ -89,3 +89,55 @@ form {
     background-color: white;
     box-shadow: 0 3px 5px  gray;
 }
+
+.form-container  p {
+    font-size: calc(0.6rem + 1.2vmin);
+    margin-bottom: 2vh;
+}
+
+.form-input-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin-right: 20%;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    margin-top: 1vh;
+    gap: 2px;
+}
+
+.form-field label {
+    text-transform: uppercase;
+    font-size: calc(0.1rem + 1.1vmin);
+    color: #1e1e1e;
+}
+
+.form-field input {
+    font-size: calc(0.5rem + 1vmin);
+    padding: calc((0.5rem + 1vmin) / 4);
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+.form-field input:focus {
+    outline: none;
+    border-color: blue;
+    box-shadow: 3px 3px 5px gray;
+}
+
+.form-field input:user-invalid {
+    border-color: red;
+}
+
+.form-field .password-hint {
+    font-size: calc(0.1rem + 1vmin);
+}
+
+.form-field input:user-invalid + .password-hint {
+    color: red;
+}
