@@ -52,7 +52,7 @@ body {
 
 .banner h1 {
     color: var(--font-color-light);
-    font-size: 10rem;
+    font-size: calc(1rem + 12vh);
     font-family: "norse-bold";
 }
 
