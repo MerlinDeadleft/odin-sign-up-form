@@ -79,3 +79,13 @@ main > p {
 main > p:first-of-type {
     margin-top: 10vh;
 }
+
+form {
+    margin-top: 7vh;
+}
+
+.form-container {
+    padding: 2vh 5vh;
+    background-color: white;
+    box-shadow: 0 3px 5px  gray;
+}
