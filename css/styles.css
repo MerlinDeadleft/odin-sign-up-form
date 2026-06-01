@@ -91,7 +91,7 @@ form {
     box-shadow: 0 3px 5px  gray;
 }
 
-.form-container  p {
+.form-container p {
     font-size: calc(0.6rem + 1.2vmin);
     margin-bottom: 2vh;
 }
@@ -141,6 +141,26 @@ form {
 
 .form-field input:user-invalid + .password-hint {
     color: red;
+}
+
+form button {
+    background-color: #596d48;
+    font-size: calc(0.3rem + 1.2vmin);
+    font-family: Verdana;
+    color: var(--font-color-light);
+    padding: 1.25vh 3vh;
+    border-radius: 5px;
+    border: none;
+    margin: 3vh 0 0 5vh;
+    box-shadow: 3px 4px 7px darkgray;
+}
+
+form button:hover {
+    cursor: pointer;
+}
+
+form button:active {
+    background-color: #4b5c3d;
 }
 
 .login-label {
